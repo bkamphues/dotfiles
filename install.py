@@ -29,7 +29,7 @@ def execute(command):
 def symlink(file, link):
 
     # open a subprocess to execute the command and print any errors
-    execute(["ln", "-vs", file, link])
+    execute(["ln", "-vfs", file, link])
 
 
 # create symlinks to dotfiles
