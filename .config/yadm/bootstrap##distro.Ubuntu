@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Executing Ubuntu Bootstrap..."
+
+python3 ~/.config/yadm/bootstrap_ubuntu.py
