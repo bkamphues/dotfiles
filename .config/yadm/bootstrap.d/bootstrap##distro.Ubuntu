@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Executing Ubuntu Bootstrap..."
+
+# execute python bootstrap
+# pip install black
+# python3 bootstrap_ubuntu.py
