@@ -8,11 +8,6 @@ fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to PyEnv installation.
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
-
 # Path to your oh-my-zsh installation.
 export ZSH="/home/bkamphues/.oh-my-zsh"
 
@@ -82,7 +77,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git nvm yarn gatsby)
+plugins=(zsh-pyenv git nvm yarn gatsby ssh-agent)
 
 source $ZSH/oh-my-zsh.sh
 
