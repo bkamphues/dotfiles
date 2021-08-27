@@ -3,6 +3,7 @@
 ################ Ubuntu Bootstrap Script ###################
 #################### By Bo Kamphues ########################
 ############################################################
+############################################################
 
 import subprocess
 
@@ -22,9 +23,3 @@ __simpleRun(["sudo", "apt-get", "install", "-y", "python3-pip"])
 
 # install global pip packages
 __simpleRun(["pip3", "install", "black"])
-__simpleRun(["pip3", "install", "termcolor"])
-
-from termcolor import colored, cprint
-
-text = colored("Hello world!", "red", attrs=["reverse", "blink"])
-print(text)
